@@ -1,0 +1,2 @@
+# HelpMe
+This mobile application intends to help and assist immediate response care for victims. Application gives immediate information of first- aid tips, important emergency contacts, nearby hospitals, blood donors and road safety laws related to road accidents in India. This mobile application was developed after self experience of such road accidents and desperate need of immediate one stop destination for all information needed in such crisis
