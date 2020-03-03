@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tanvi.myway.fifteen">
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ahmadabad List"
+        android:id="@+id/textView39"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\n 1. Mahin Lifecare Services Pvt. Ltd. | Address: B/118, Royal Nawab Avenue, Above Zalak Kirana Store, Juhapura, Ahmedabad | Contact Details : 079-26824316
+        \n\n  2. Poojan Children Hospital | Address: 1st Floor, Vaibhav Complex, Nr. Nirnay Nagar Under Bridge, Birnay Nagar, Ahmedabad | Contact Details : 079- 27621068,276203
+        \n\n  3. Vinayak Children Hospital | Address: 1st Floor, Sahajanand Complex, Near Balol Nagar cross road,Ranip , Ahmedabad | Contact Details : 079-27520025
+        \n\n  4. Dev Multi-Speciality Hospital | Address: bagmar Plaza, Near Jamalpur Cross Road, Jamalpur, Ahmedabad | Contact Details : 079-25380902
+        \n\n  5. Dev Hospital | Address: Kesariyaji Bus Stand, J M Road, Vasna, Ahmedabad | Contact Details : 079-26614646
+        \n\n  6. Sanjivani Eye Hospital &amp; Phaco Centre | Address: 301-Soham 1 Complex, Near Darpan Six Road, Navrangpura, Ahmedabad | Contact Details : 079-26561134
+        \n\n  7. Dr. Saurabh Shah Orthopasedic Hospital | Address: 3B, Hasmukh Colony, Vijaynagar Road, Naranpura, Ahmedabad | Contact Details : 079-27437225
+        \n\n  8. Patel ENT Hospital | Address: 103, Ashwarath Shopping Centre, Ushmanpura, Ashram Road, Ahmedabad | Contact Details : 9426022807
+        \n\n  9. Anand Multi Speciality Hospital Pvt. Ltd. | Address: White House, Opp. Rajasthan Hospital, Shahibaug, Ahmedabad | Contact Details : 079- 22868681,228639
+        \n\n  10. Shah Hospital | Address: 21/ Shantinagar, Ashram Road, Vadaj, Ahmedabad | Contact Details : 799173914050, 9426750179,
+        \n\n  11. Rhythm Cardio Pulmonary Care Centre &amp; Medical Hospital | Address: 1st &amp; 2nd Floor, Shashwat Complex, Naranpura Cross road, Ahmedabad. | Contact Details : 9087979-27786280252811, 27680211
+        \n\n  12. Bodyline Hospitals | Address: Opp. Annapurna Hall, B/s. Dev Status, New Vikash Gruh Road, Paldi, Ahmedabad | Contact Details : 079- 26640505,652423
+        \n\n  13. Super Surgical Hospital | Address: Anamay,Near Hotel President,C G Road, Swastik Cross Road, Navrangpura,Ahmedabad | Contact Details : 20279-26564007
+        \n\n  14. Trisha Trauma Centre &amp; ICU | Address: A-2 &amp; 3, Shantaram Complex, Opp. Vaibhav Complex, Near Nirnaynagar Garnala, Nirnaynagar, Ahmedabad | Contact Details : 079-27623762/63
+        \n\n  15.Siddhi Vinayak Hospital | Address: Near Jaldhara Water Park, Balvatika, Kankaria, Maninagar, Ahmedabad | Contact Details : 079- 25471025,2546512
+        \n\n  16. Devasya Kidney Hospital | Address: 302,Maruti crystle. Opp Rajpath club, S G Highway, Ahmedabad | Contact Details : 8079- 26872300,909992
+        \n\n  17. Devasya Kidney Hospital | Address: Opp. Mehsana Soc., New Vadaj Road,Ahmedabad | Contact Details : 5027795- 27642100,276422
+        \n\n  18.Devam Orthopaedik Hospital | Address: 215-216, Sarvopari Mall, Near Bhuyangdev Cross Road, Sola Road, Ghatlodia, Ahmedabad | Contact Details : 079- 30177401,6522665
+        \n\n  19. Jyoti Maternity Hospital | Address: 1st Floor, Ocean Park, Nehrunagar, Satellite,Ahmedabad | Contact Details : 6079-26731759
+        \n\n  20. Eye Care Hospital | Address: Polytechnic Road, Behind IOC Petrol Pump, Ahmedabad | Contact Details : 079- 26446133,264305
+        \n\n  21. Bopal Multispeciality Hospital | Address: 1st Floor, Abhinandan Complex, Opp. Inductotherm, Bopal, Ahmedabad | Contact Details : 0032717-233043
+        \n\n  22. Alok Orthocare | Address: Opp. Landmark Hotel, Usmanpura,Ahmedabad | Contact Details : 079- 27558383,275589
+        \n\n  23. Navneet Memorial Hospital(Shushrusha) | Address: Opp. Sardar Patel Seva Samaj Hall, In the Lane, Opp. Navrangpura Telephone Exchange, Navrangpura, | Contact Details : 80799-26405057
+        \n\n  24. Shivam Medical Hospital | Address: C/4-Satyanarayan Soc., Jasodanagar Cross Road, Ahmedabad | Contact Details : 9825047692, 9879082831 "
+        android:id="@+id/textView44"
+        android:layout_below="@+id/textView39"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#030000"
+        android:typeface="serif" />
+    </RelativeLayout>
+</ScrollView>

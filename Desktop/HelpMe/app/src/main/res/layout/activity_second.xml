@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tanvi.myway.second"
+    android:background="#fffefe">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Call Ambulence"
+        android:textStyle="bold"
+        android:id="@+id/b2"
+        android:layout_above="@+id/b3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:textColor="#540303"
+        android:typeface="serif"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Call Police"
+        android:textStyle="bold"
+        android:id="@+id/b3"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:textColor="#540303"
+        android:typeface="serif"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Open First-Aid"
+        android:textStyle="bold"
+        android:id="@+id/b5"
+        android:layout_above="@+id/b6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:textColor="#540303"
+        android:typeface="serif"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Nearest Hospital"
+        android:textStyle="bold"
+        android:id="@+id/b6"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:textColor="#540303"
+        android:typeface="serif"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/p"
+        android:layout_below="@+id/b2"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/p1"
+        android:scaleType="fitCenter"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignLeft="@+id/imageView10"
+        android:layout_alignStart="@+id/imageView10" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/fa"
+        android:layout_alignBottom="@+id/b5"
+        android:scaleType="fitCenter"
+        android:layout_alignTop="@+id/b5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView5"
+        android:src="@drawable/images"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Fire-relief"
+        android:id="@+id/fr"
+        android:layout_alignTop="@+id/imageView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:longClickable="true"
+        android:textColor="#540303"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_above="@+id/b2"
+        android:layout_alignRight="@+id/b2"
+        android:layout_alignEnd="@+id/b2"
+        android:textSize="15dp" />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView10"
+        android:src="@drawable/fire2"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/b2"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_above="@+id/b2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="source: Google Images"
+        android:id="@+id/textView34"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_columnSpan="5"
+        android:textSize="8dp"
+        android:layout_below="@+id/b6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

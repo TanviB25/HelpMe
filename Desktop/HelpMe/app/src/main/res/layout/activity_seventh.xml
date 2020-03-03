@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tanvi.myway.seventh"
+    android:background="#fdfcfc">
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Burn and Bleed"
+        android:id="@+id/textView12"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#06731a"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n 1.For bleeding-
+        \n\n- First press firmly over the site with a clean cloth until it stops, anywhere from three to 15 minutes.
+        \n\n- Clean under lukewarm running water and gently pat dry. When a wound is dirty ,
+        \n\n- Rinse it with water and gently lather with soap.
+        \n\n- If the skin is broken, apply a thin layer of an over-the-counter antibiotic ointment (like Neosporin or Bacitracin),
+        \n\n- Then cover with a bandage or gauze and adhesive tape.
+        \n\n- If a large piece of skin has been removed, wrap it in a clean, moist cloth and place it in a bag over ice,a doctor may be able to reattach it.
+        \n\n- Dab on the anti-biotic ointment and apply a new bandage daily or twice daily,if it&apos;s a large or deep wound, until the cut heals.
+        \n\n- If it appears to be forming or draining pus or becomes swollen, tender, or red, see a doctor right away to treat the infection.
+        \n\n- After the wound heals, slather on SPF 30 until it starts to fade, because newly healed skin can sunburn more easily,making any eventual scar more noticeable.
+
+        \n\n2.For Minor Burn:
+
+    \n\n- Cool the burn to help soothe the pain: Hold the burned area under cool (not cold) running water for 10 to 15 minutes or until the pain eases. Or apply a clean towel dampened with cool tap water.
+    \n\n- Remove rings or other tight items from the burned area: Try to do this quickly and gently, before the area swells.
+    \n\n- Don't break small blisters: If blisters break, gently clean the area with mild soap and water, apply an antibiotic ointment, and cover it with a nonstick gauze bandage.
+    \n\n- Apply moisturizer or aloe vera lotion or gel, which may provide relief in some cases.
+    \n\n- If needed, take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin IB, others), naproxen sodium (Aleve) or acetaminophen (Tylenol, others).
+    \n\n- Consider a tetanus shot. Make sure that your tetanus booster is up to date. Doctors recommend people get a tetanus shot at least every 10 years.
+
+\n\n3.For Major Burn:
+
+\n\n- Call 102 or emergency medical help for major burns. Until an emergency unit arrives, take these actions:
+
+\n\n- Protect the burned person from further harm. If you can do so safely, make sure the person you're helping is not in contact with smoldering materials or exposed to smoke or heat. But don't remove burned clothing stuck to the skin.
+\n\n- Check for signs of circulation. Look for breathing, coughing or movement. Begin CPR if needed.
+\n\n- Remove jewelry, belts and other restrictive items, especially from around burned areas and the neck. Burned areas swell rapidly.
+\n\n- Don't immerse large severe burns in cold water. Doing so could cause a serious loss of body heat (hypothermia) or a drop in blood pressure and decreased blood flow (shock).
+\n\n- Elevate the burned area. Raise the wound above heart level, if possible.
+\n\n- Cover the area of the burn. Use a cool, moist, bandage or a clean cloth.
+\n\n source:http://www.mayoclinic.org/first-aid/first-aid-burns/basics/art-20056649
+
+"
+        android:id="@+id/textView24"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#0b0000"
+        android:textColorHighlight="#030000"
+        android:typeface="serif"
+        android:layout_below="@+id/textView12" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tanvi.myway.sixth"
+    android:background="#fffdfd">
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Scratches and Small Injuries"
+        android:id="@+id/textView10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#06731a"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nCuts and Minor injuries \n\n - Use direct pressure to stop any bleeding. Do this for 10 minutes or until the bleeding stops. \n\n - Wash the wound with soap and water for 5 minutes. Try to rinse the cut under running water.\n\n- Caution: Never soak a wound that might need sutures.Reason: It may become more swollen and harder to close. \n\n- Gently scrub out any dirt with a washcloth. \n\n- Cut off any pieces of loose skin using a fine scissors. Clean the scissors first with rubbing alcohol. \n\n- Use an antibiotic ointment such as Polysporin. No prescription is needed. Then, cover it with a bandage such as Band-Aid. Change daily. \n\n- Liquid skin bandage seals wounds with a plastic coating. It lasts up to 1 week. \n\n- Liquid skin bandage has several benefits compared to other bandages such as Band-Aid.\n\n- Liquid bandage only needs to be put on once. It seals the wound and may promote faster healing and lower infection rates. Also, it&apos;s water-proof. \n\n- Wash and dry the wound first. Then, put on the liquid. It comes with a brush or swab. It dries in less than a minute. \n\n- You can get this product at a drugstore near you. There are many brands of liquid bandage. No prescription is needed. \n\n Bruises - \n\nTreatment:\n - Use a cold pack or ice bag wrapped in a wet cloth. Put it on the bruise once for 20 minutes. This will help to stop the bleeding. \n\n- After 48 hours, use a warm wet wash cloth. Do this for 10 minutes 3 times per day. This helps to reabsorb the blood. \n\n- Pain Medicine:\n\n- To help with the pain, give an acetaminophen product such as Tylenol. \n\n- Another choice is an ibuprofen product such as Advil. \n\nTetanus Shot:\n\n- A tetanus shot update may be needed for cuts and other open wounds. \n\n- Check your vaccine records to see when your child got the last one. \n\n- For Dirty Cuts and Scrapes. If last tetanus shot was given over 5 years ago, need a booster.\n\n- For Clean Cuts. If last tetanus shot was given over 10 years ago, need a booster. \n\n- What to Expect: Small cuts and scrapes heal up in less than a week. Concern with your doctor in emergency. \n Source:http://www.seattlechildrens.org/medical-conditions/symptom-index/skin-injury/ "
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#0a0000"
+        android:typeface="serif"
+        android:textColorHighlight="#030000" />
+
+    </RelativeLayout>
+</ScrollView>

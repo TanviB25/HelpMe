@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelpMe</string>
+    <string name="Mumbai"><a href="http://www.mumbaibest.com/Top_10_hospitals_mumbai/Top_10_Hospitals_Mumbai.asp">Mumbai</a></string>
+    <string name="kolkata"><a href="http://www.bengaladdict.com/hospital.html">Kolkata</a></string>
+    <string name="NewDelhi"><a href="http://www.medifee.com/list/best-hospitals-delhi-ncr">NewDelhi</a></string>
+    <string name="Chennai"><a href="http://www.worldlistmania.com/list-of-20-best-hospitals-in-chennai/">Chennai</a></string>
+    <string name="Ahmadabad"><a href="http://thetop10z.com/top-10-hospitals-in-ahmedabad.html">Ahmadabad</a></string>
+
+
+</resources>

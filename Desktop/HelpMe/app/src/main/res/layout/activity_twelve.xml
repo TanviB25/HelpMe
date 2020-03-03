@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tanvi.myway.twelve">
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Kolkata List"
+        android:id="@+id/textView36"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\n 1. Apollo Gleneagles Hospital \nAddress: 58, Canal Circular Road,
+Kolkata - 700054.
+Phone:23203040 / 2122 / 2003 / 2004 / 2006
+Email:hospital@apollogleneagles.in\n
+
+\n\n 2. AMRI Hospital \n Address : P-4 C.I.T. Scheme-LXXII, Block-A,Gariahat Road (Beside Dhakuria Bridge),Kolkata - 700 029
+Phone :   24612626 / 2526 / 40025120/65500000 (Emergency)
+Email:info@amrihospitals.in \n
+
+\n\n 3. Behala Balananda Brahmachari Hospital and Research Center
+Address : 151 and 152 Diamond Harbour Road,Kolkata - 700034.
+Phone :    24684060 / 24781687 / 7801
+Email:info@bbbhospital.org\n
+
+\n\n 4. Calcutta Heart Research Centre \n Address : 114 B, Sarat Bose Road,Kolkata - 700029.
+Phone :    24747613 / 2475747 / 24546083 / 6084
+Email:     chrc@mail.com\n
+
+\n\n 5. Medical College and Hospital Kolkata \n Address : 88, College Street,Kolkata - 700072.
+Phone :    24512644
+Email:principal@medicalcollegekolkata.org\n
+
+\n\n 6. Rabindranath Tagore International Institute of Cardiac Sciences (RTIICS)
+Address : 124, Mukundapur, E.M.Bypass,Near Santoshpur Connector,Kolkata - 700099.
+Phone :    24364000  / 30014000
+Email :     email@rtiics.org
+"
+        android:id="@+id/textView41"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#050000"
+        android:typeface="serif" />
+</RelativeLayout>
+</ScrollView>

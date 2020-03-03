@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tanvi.myway.eleven">
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mumbai Hospital List"
+        android:id="@+id/textView35"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\n 1. Bhatia Hospital \n Address: Tukaram Javji Road, Tardeo, Grant Road (W), Mumbai – 400007 India\n Tel: +91 22 66660111, 66660251 \n E-mail : info@bhatiahospital.org \n URl: www.bhatiahospital.org \n\n 2. Bombay Hospital and Medical Research Centre \n Address: 12, Marine Lines, Mumbai - 400 020, India
+Tel: +91 22 2067 676
+URl: www.bombayhospital.com \n\n 3. Breach Candy Hospital \n Address: 60 A Bhulabhai Desai Road Mumbai : 400026
+Tel: +91 22 - 2366 7949, 2366 7788 , 2367 1888 , 2367 2888
+URl: www.breachcandyhospital.org
+E-mail : info@breachcandyhospital.org \n \n 4. Hinduja National Hospital and Medical Res. Centre\n Address: Veer Savarkar Marg, Mahim, Mumbai-400 016 India.Tel: +91 22 24449199 24452222 24451515 24447000 24447500
+URl: www.hindujahospital.com \n\n 5. Jaslok Hospital and Research Centre \n Address: 15 - Dr. Deshmukh Marg, Pedder Road, Mumbai- 400 026.
+Tel: +91 22 66573333 / 66573010
+URl: www.jaslokhospital.net
+E-mail : info@jaslokhospital.net \n\n 6. Lilavati Hospital and Research Centre \n Address: A - 791, Bandra Reclamation, Bandra (W), Mumbai - 400 050. India.
+Tel: +91 22 26751000 ,26568000
+URl: lilavatihospital.com \n\n 7. Tata Memorial Hospital \n Address: Dr. E Borges Road, Parel, Mumbai - 400 012 India
+Tel: +91 22 2417 7000, 2414 6750
+URl: www.tatamemorialcentre.com"
+        android:id="@+id/textView40"
+        android:layout_below="@+id/textView35"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#030000"
+        android:typeface="serif" />
+
+</RelativeLayout>
+</ScrollView>

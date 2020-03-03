@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tanvi.myway">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.tanvi.myway.first">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tanvi.myway.second" />
+        <activity android:name="com.tanvi.myway.third" />
+        <activity android:name="com.tanvi.myway.fourth" />
+        <activity android:name="com.tanvi.myway.fifth" />
+        <activity android:name="com.tanvi.myway.sixth" />
+        <activity android:name="com.tanvi.myway.seventh" />
+        <activity android:name="com.tanvi.myway.eight" />
+        <activity android:name="com.tanvi.myway.nine" />
+        <activity android:name="com.tanvi.myway.ten" />
+        <activity android:name="com.tanvi.myway.eleven" />
+        <activity android:name="com.tanvi.myway.twelve" />
+        <activity android:name="com.tanvi.myway.thirteen" />
+        <activity android:name="com.tanvi.myway.fourteen" />
+        <activity android:name="com.tanvi.myway.fifteen" />
+        <activity android:name="com.tanvi.myway.sixteen" />
+       /* activity android:name=".DisplayDonors"
+        activity android:name=".BackGroundTask" />
+        activity android:name=".DbOperations" />
+        activity android:name=".AddDonor" />
+        activity android:name=".DonorList" */
+        <activity android:name="com.tanvi.myway.listDonors" />
+        <activity android:name="com.tanvi.myway.SearchDonor" />
+    </application>
+
+</manifest>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tanvi.myway.fourth"
+    android:background="#fffefe">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="List of Hospitals"
+        android:id="@+id/textView3"
+        android:textSize="26dp"
+        android:textIsSelectable="false"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#06731a" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\n\n  Activate your GPS-"
+        android:id="@+id/textView4"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Mumbai"
+        android:id="@+id/textView5"
+        android:autoText="false"
+        android:clickable="true"
+        android:editable="false"
+        android:elegantTextHeight="true"
+        android:longClickable="true"
+        android:linksClickable="true"
+        android:textStyle="bold|italic"
+        android:textSize="24dp"
+        android:singleLine="false"
+        android:textIsSelectable="true"
+        android:typeface="serif"
+        android:textAlignment="gravity"
+        android:focusable="true"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignRight="@+id/imageView9"
+        android:layout_alignEnd="@+id/imageView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/kolkata"
+        android:id="@+id/textView6"
+        android:clickable="true"
+        android:linksClickable="true"
+        android:longClickable="true"
+        android:textStyle="bold|italic"
+        android:textSize="24dp"
+        android:typeface="serif"
+        android:textAlignment="gravity"
+        android:textIsSelectable="true"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignTop="@+id/button"
+        android:autoText="false"
+        android:background="#fefdfd"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/NewDelhi"
+        android:id="@+id/textView7"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:textStyle="bold|italic"
+        android:textSize="24dp"
+        android:typeface="serif"
+        android:textAlignment="gravity"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/button"
+        android:layout_alignRight="@+id/textView9"
+        android:layout_alignEnd="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Chennai"
+        android:id="@+id/textView8"
+        android:contextClickable="true"
+        android:clickable="true"
+        android:singleLine="true"
+        android:textStyle="bold|italic"
+        android:textSize="24dp"
+        android:typeface="serif"
+        android:textAlignment="gravity"
+        android:textIsSelectable="true"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Ahmadabad"
+        android:id="@+id/textView9"
+        android:clickable="false"
+        android:enabled="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:longClickable="true"
+        android:linksClickable="true"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        android:textAlignment="gravity"
+        android:textIsSelectable="true"
+        android:textSize="24dp"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_alignTop="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:background="#fffefe" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Your Location"
+        android:id="@+id/b7"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="#c7390a"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textView3"
+        android:layout_toStartOf="@+id/textView3"
+        android:src="@drawable/hospi3"
+        android:layout_above="@+id/textView5" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+        android:src="@drawable/hospi3"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_above="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView31"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_columnSpan="5"
+        android:textSize="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mumbai-List"
+        android:id="@+id/button5"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:background="#02b2b1"
+        android:shadowColor="#f64545"
+        android:textColor="#d3fdfc" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kolkata-list"
+        android:id="@+id/button"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button5"
+        android:layout_alignEnd="@+id/button5"
+        android:background="#d3fdfc"
+        android:textColor="#017372" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NewDelhi-List"
+        android:id="@+id/button2"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3"
+        android:background="#02b2b1"
+        android:textColor="#d3fdfc" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chennai-list"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignEnd="@+id/button4"
+        android:background="#d3fdfc"
+        android:textColor="#017372" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahmadabad-list"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#02b2b1"
+        android:textColor="#d3fdfc" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:src="@drawable/hospi"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_below="@+id/textView9"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Image Source: Google Images"
+        android:id="@+id/textView14"
+        android:layout_alignBottom="@+id/textView31"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="8dp" />
+
+
+</RelativeLayout>

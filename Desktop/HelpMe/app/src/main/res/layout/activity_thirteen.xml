@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tanvi.myway.thirteen">
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="New Delhi"
+        android:id="@+id/textView37"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" \n1. AIIMS (All India Institute of Medical Sciences), New Delhi  \n Address:  All India Institute of Medical Sciences, Ansari Nagar, New Delhi - 110029  Phone: +91-11-26588500 / 26588700 Call Centre: 18602583010 Fax: +91-11-26588663 / 26588641
+\n \n 2. Max Superspecialty Hospital, Saket \nAddress  1,2 Press Enclave Road, Saket, New Delhi 110 017  Phone: +91 11 2651 5050 Fax: +91 11 2651 0050 Emergency No: +91 11 4055 4055 Appointment Helpline No: 8860 444 888  \n
+\n \n 3. Sir Ganga Ram Hospital \n Address:  Rajinder Nagar, New Delhi 110060, INDIA  Tel: +91 11-25750000 Fax: +91 11-25861002 \n
+\n \n 4. Medanta - The Medicity, Delhi \n Address:  Sector 38, CH Bakhtawar Singh Road, Islampur Colony, Near Rajiv Chowk, Gurgaon, Haryana 122001, India  Phone: +91 124 414 1414  \n
+\n \n 5. GB Pant Hospital \n  Address:  1, Jawaharlal Nehru Marg, New Delhi, Delhi 110002, India  Phone: +91 11 2323 4242, 2323 4568  \n
+\n \n 6. Fortis Hospital, Noida \n Address:  B-22 Sector 62, Noida - 201301, Uttar Pradesh.  Phone: +911204300222  \n
+\n \n 7. Dr. Ram Manohar Lohia Hospital, New Delhi \n Address:  Baba Kharak Singh Marg, Connaught Place, New Delhi - 110001.  Phone: 011-23365525  \n
+\n \n 8. Batra Hospital &amp; Medical Research Center \nAddress:  1, Tughlakabad Institutional Area, Mehrauli Badarpur Road, Near Saket Metro Station, New Delhi-110 062  Phone: 91-11-2995 8747, 2995 7485-87, 2995 7629  Fax: 91-11-2995 6255, 2605 7661"
+        android:id="@+id/textView42"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#060000"
+        android:typeface="serif" />
+    </RelativeLayout>
+</ScrollView>
+

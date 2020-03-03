@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tanvi.myway.eight"
+    android:background="#fefefe">
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Safety Measures"
+        android:id="@+id/textView15"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#06731a"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nTips to remember while shifting a person to the hospital:
+        \n\n1. The patient should be transported on a stretcher or a stiff board. This is important as reducing the amount of movement the person experiences is essential to avoid his/her injuries from becoming worse.
+        \n\n2. Keep the person’s neck and back straight.
+        \n\n3. You could place a rolled up towel or thick cloth under the neck for better support.
+        \n\n4. Ensure that the person is lying down flat.
+        \n\n5. If there is only a limb injury, the patient can be transported in a sitting position.
+        \n\n6. In case of a bleeding injury, lift the injured part above the person’s body level and apply pressure on the region. Keep applying pressure till you reach the hospital. This helps control and eventually stop the bleeding.
+        \n\n7. Make sure the person has a pulse and is breathing on the way to the hospital.
+        \n\n8. If he/she stops breathing, be prepared to start CPR or EAR in the vehicle.
+        \n\n9. Perform life saving techniques: If there is no pulse, start CPR or EAR. Keep the person’s neck straight to start EAR (External Air Resuscitation) or CPR (Cardio pulmonary resuscitation). There are 3 types of EAR; Mouth-to-mouth, Mouth-to-Nose, Mouth-to-Mask.
+"
+        android:id="@+id/textView25"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#060000"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColorHighlight="#0b0000"
+        android:typeface="serif" />
+    </RelativeLayout>
+</ScrollView>

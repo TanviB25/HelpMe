@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tanvi.myway.fifth"
+    android:background="#ffffff">
+
+<RelativeLayout
+
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="First Aid Tips\n"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#06731a"
+        android:textColorHighlight="#0f0101"
+        android:typeface="serif"
+        android:textStyle="bold" />
+
+    /*LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">LinearLayout*/
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you have been injured in the accident, first check yourself for any injuries.Try to check how well you can move your limbs  Remember you need to be fit enough to help the others.  If other people are injured, first check the extent of injuries.  Treat the quietest person first, they are usually more seriously injured or cannot breathe.         "
+        android:id="@+id/textView19"
+        android:scrollIndicators="bottom"
+        android:textColorHighlight="#0f0101"
+        android:textColor="#0f0101"
+        android:numeric="integer"
+        android:typeface="serif"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        android:layout_below="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n1. Signs of breathing: Check if the person is breathing and if he has a pulse.
+\n\n2. Call for help: Immediately call for an ambulance or rush the person to a hospital. Once you know more about the patient’s condition you will in a better position to tell the doctors about his/her condition.
+
+\n\n3. Check for obstructions in the person’s mouth and throat: If you do not hear any breath sounds, check his/her mouth for any obstructions. If there is something obstructing the airway, use your index and middle finger to clear the airway.
+
+
+\n\n4. Ways to help him/her in grave situations: If there is bleeding from the mouth or the patient is vomiting, turn the person to his/her side. This will avoid any chances of the person choking. Place the person’s arm that is under him straight out and the arm closest to you across his chest.
+
+
+\n\n5. Deal with open wounds: If there are extensive wounds, try to control the bleeding using pressure to the area using a cloth. Press down with your palms rather than your finger tips.
+
+
+\n\n6. Always suspect spinal injuries: If the person’s neck is in an awkward position (not normally placed) or the person is unconscious, do not move the patient. Get help immediately. This could mean that the person’s neck is broken, and moving him/her in such a situation can cause more harm than good.
+
+
+\n\n7. Keep the person warm: Usually accident victims feel excessively cold due to shock. Therefore keeping them warm is essential to survival. You can use whatever you have to do this, such as a T-shirt, jacket, etc.
+
+
+\n\n8. Avoid feeding the person: Do not give the person any water, food or other fluids through the mouth, it could lead to the patient choking. "
+
+        android:id="@+id/textView28"
+        android:textColor="#0e0101"
+        android:textColorHighlight="#0e0101"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:typeface="serif"
+        android:layout_below="@+id/textView19"
+        android:scrollIndicators="bottom"
+        android:background="#ffffff" />
+
+
+</RelativeLayout>
+</ScrollView>

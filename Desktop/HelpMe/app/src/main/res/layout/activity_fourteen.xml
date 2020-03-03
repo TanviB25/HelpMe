@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tanvi.myway.fourteen">
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Chennai"
+        android:id="@+id/textView38"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\n 1. Apollo Hospital Address: No. 21, Greams Lane 320, Off. Greams Road, Chennai – 600006 Phone-+ 91-44-2829 0200/2829 3333 Fax: + 91 44-2829-4429 Web: http://www.apollohospitals.com \n
+    \n\n 2. Fortis Malar Hospital \n Address: Fortis Malar Hospital 52, First Main Road, Gandhi Nagar, Adyar Adyar Chennai – 600 020 Phone: +91-44-4289-2222, Emergency No: +91-44-2491-4737 Web: http://www.fortishealthcare.com
+    \n\n 3. MIOT Hospital Address: 4/112, Mount Poonamalle Road, Manapakkam, Chennai – 600 089, Tamil Nadu Phone: 22492288, / 42002288 Fax: +91 44 2249 1188 Web: http://www.miothospitals.com
+    \n\n 4. SRM Hospital Address: SRM Nagar, Kattankulathur – 603 203, Kancheepuram District, Tamil Nadu Phone: +91-44-2745 2270,/ +91-44-2741 7777 Fax: +91-44-2745 2343 Web: http://www.srmhospitals.com
+    \n\n 5. Vijay Hospital \n Address: 175 And 180, N.S.K. Salai, Vadapalani, Chennai-600 026, Tamil Nadu Phone: + 044 24801642 Web: http://www.vijayahospital.org
+    \n\n 6. CSI Kalyani Hospital \n Address: 15 Dr Radhakrishnan, Salai Mylapore, Chennai- 600004, Tamil Nadu Phone: +Tel: 91-44-28476433/6199 Fax: 91-44-.28474141 Web: http://www.csikalyanihospital.com
+    \n\n 7. St. Isabella Hospital \n Address: Oliver Rd, Mylapore, Chennai, Tamil Nadu 600004 Phone: 044 24991081 Email: info@stisabelshospital.com Web: http://www.stisabelshospital.in \n"
+        android:id="@+id/textView43"
+        android:layout_below="@+id/textView38"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#040000"
+        android:typeface="serif" />
+</RelativeLayout>
+</ScrollView>
